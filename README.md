@@ -5,9 +5,27 @@
 [TOC]
 
 ## OCW
+- [AI Overlords - Basics of Graph Neural Networks](https://www.graphneuralnets.com/p/basics-of-gnns/)
+
+## Leaning Materials
+- [McGill - Reihaneh Rabbany - Network Science](http://www.reirab.com/Teaching/NS22/index.html)
+
 
 ## Youtube
+
+### Reading Group
+- [Valence Labs - Graphs and Geometry Reading Group](https://www.youtube.com/playlist?list=PLoVkjhDgBOt2UwOm70DAuxHf1Jc9ijmzl)
 
 ## Lib
 
 ## Paper
+- [Towards Better Evaluation for Dynamic Link Prediction](https://openreview.net/forum?id=1GVpwr2Tfdg)
+   - [Youtube](https://youtu.be/nGBP_JjKGQI?si=gIHN4FT2ZvCJJjXL)
+   - [Code](...)
+
+## Open Dataset
+
+## Cheat Sheets
+|  keyword        |  externel link  |  explain  |
+|-----------------|-----------------|-----------|
+|`Message Passing`|  [Simple Message Passing on Graphs](https://youtu.be/ijmxpItkRjc?si=WV9Zo9Uez1Cmm19t)  ||
