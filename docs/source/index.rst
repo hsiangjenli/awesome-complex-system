@@ -1,6 +1,6 @@
-======================
-Awesome Complex System
-======================
+========================================
+Awesome Complex System & Network Science
+========================================
 
 .. image:: https://img.shields.io/github/last-commit/hsiangjenli/awesome-complex-system
 
@@ -12,19 +12,19 @@ Awesome Complex System
 
 .. toctree::
    :maxdepth: 1
+   :caption: Complex Network
+
+   open_source/index
+
+.. toctree::
+   :maxdepth: 1
    :caption: Graph Neural Network
   
-   gnn/index
    gnn/cheatsheet
+   gnn/temporal_graph
 
 .. toctree::
    :maxdepth: 1
    :caption: Selected Papers
 
    paper/index   
-   
-
-Contributor
------------
-- Hsiang-Jen Li
-  - https://github.com/hsiangjenli

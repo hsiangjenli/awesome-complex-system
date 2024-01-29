@@ -26,8 +26,8 @@ extensions = [
 
 html_theme = 'pyg_sphinx_theme'
 html_title = ''
-html_logo = ('https://camo.githubusercontent.com/50cf39121274b3db22bf1bd72cbe25af9078e037441cb5b5bdef1cc9dc5eb2f7/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667')
-html_favicon = ('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>')
+html_logo = ('https://hsiangjenli.github.io/static/image/ico.svg')
+html_favicon = ('https://hsiangjenli.github.io/static/image/ico.svg')
 html_static_path = ['_static']
 
 add_module_names = False
