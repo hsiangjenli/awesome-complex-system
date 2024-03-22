@@ -1,6 +1,11 @@
 Paper
 =====
 
+Adversarial
+-----------
+
+- Adversarial Training for Graph Neural Networks: Pitfalls, Solutions, and New Directions
+
 
 Link Prediction
 ----------------

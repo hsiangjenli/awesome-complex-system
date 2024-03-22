@@ -2,5 +2,5 @@ cleanup:
 	cd docs && rm -rf build
 
 build:
-	make cleanup
+	# make cleanup
 	cd docs && make html

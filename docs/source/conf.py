@@ -29,6 +29,7 @@ html_title = ''
 html_logo = ('https://hsiangjenli.github.io/static/image/ico.svg')
 html_favicon = ('https://hsiangjenli.github.io/static/image/ico.svg')
 html_static_path = ['_static']
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 add_module_names = False
 autodoc_member_order = 'bysource'
