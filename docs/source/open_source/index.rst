@@ -6,7 +6,7 @@ Open Source Tools for Graph
     :hidden:
     
     dataset
-    databse 
+    database 
     analysis 
     visualization
     python

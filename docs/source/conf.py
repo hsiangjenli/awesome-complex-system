@@ -22,6 +22,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'nbsphinx',
+    'sphinxcontrib.bibtex',
+    'sphinx_design',
 ]
 
 html_theme = 'pyg_sphinx_theme'
@@ -30,7 +32,9 @@ html_logo = ('https://hsiangjenli.github.io/static/image/ico.svg')
 html_favicon = ('https://hsiangjenli.github.io/static/image/ico.svg')
 html_static_path = ['_static']
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
-
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+]
 add_module_names = False
 autodoc_member_order = 'bysource'
 
@@ -47,6 +51,9 @@ simplepdf_vars = {
     'primary': '#333333',
     'links': '#FF3333',
 }
+
+bibtex_bibfiles = ['paper/paper.bib']
+# bibtex_default_style = 'unsrt'
 
 def setup(app):
     def rst_jinja_render(app, _, source):
