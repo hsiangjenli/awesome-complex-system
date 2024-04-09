@@ -5,3 +5,6 @@
 
 - Susheel Suresh
   - https://susheels.github.io/
+
+- Shirui Pan
+  - https://shiruipan.github.io/

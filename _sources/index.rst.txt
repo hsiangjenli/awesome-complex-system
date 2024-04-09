@@ -15,4 +15,6 @@ Awesome Complex System & Network Science
    gnn/cheatsheet
    gnn/temporal_graph
 
-   .. paper/index   
+   awesome
+
+   paper/index
