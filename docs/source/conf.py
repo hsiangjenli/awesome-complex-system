@@ -23,7 +23,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'nbsphinx',
     'sphinxcontrib.bibtex',
-    'sphinx_design',
 ]
 
 html_theme = 'pyg_sphinx_theme'
