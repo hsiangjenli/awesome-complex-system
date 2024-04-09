@@ -17,7 +17,7 @@ jobs:
 
       - name: Install main package
         run: |
-          pip install --upgrade docutils
+          pip install --upgrade setuptools
           pip install nbsphinx sphinxcontrib-bibtex
           pip install git+https://github.com/hsiangjenli/hsiangjenli_sphinx_theme.git
 
