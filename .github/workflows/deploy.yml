@@ -1,0 +1,31 @@
+name: Deploy Page
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Checkout -----------------
+      - uses: actions/checkout@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+
+      # Sphinxdoc Image ----------------
+      - name: Use Docker Image
+        uses: addnab/docker-run-action@v3
+        with:
+            image: hsiangjenli/sphinx-doc:awesome-complex-system
+            options: --platform linux/amd64 -v ${{ github.workspace }}:/docs --user root
+            run: python source/_static/gen_keyword/script.py && make html
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/html
