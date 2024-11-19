@@ -1,3 +1,4 @@
+import datetime
 import os
 import sys
 
@@ -14,10 +15,13 @@ sys.path.insert(0, os.path.abspath("."))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "paper-digest"
-html_title = "Paper Digest"
-copyright = "2024, Hsiang-Jen Li"
+project = "awesome-complex-system"
+html_title = "Complex System"
 author = "Hsiang-Jen Li"
+copyright = f"{datetime.datetime.now().year}, {author}"
+
+if datetime.datetime.now().year != 2024:
+    copyright = "2024 ~ " + copyright
 html_favicon = "https://hsiangjenli.github.io/static/image/ico.svg"
 # release = '0.0'
 

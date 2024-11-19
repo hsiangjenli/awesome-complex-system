@@ -5,7 +5,7 @@ Awesome Complex System & Network Science
 .. image:: https://img.shields.io/github/last-commit/hsiangjenli/awesome-complex-system
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Table of Contents
    
    ocw/index
