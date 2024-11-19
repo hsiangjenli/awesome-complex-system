@@ -39,5 +39,4 @@ Link Prediction
 Reference
 ---------
 .. bibliography::
-   :cited:
-   :style: unsrt
+    :filter: docname in docnames
